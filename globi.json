@@ -1,0 +1,120 @@
+{
+  "@context" : [ "http://www.w3.org/ns/csvw", {
+    "@language" : "en"
+  } ],
+  "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+  "tables" : [ {
+    "@context" : [ "http://www.w3.org/ns/csvw", {
+      "@language" : "en"
+    } ],
+    "rdfs:comment" : [ "inspired by https://www.w3.org/TR/2015/REC-tabular-data-model-20151217/" ],
+    "url" : "interactions.tsv",
+    "dcterms:bibliographicCitation" : "RCPol: Online Pollen Catalogs Network. 2016. https://rcpol.org.br/",
+    "delimiter" : "\t",
+    "headerRowCount" : 1,
+    "null" : [ "" ],
+    "tableSchema" : {
+      "columns" : [ {
+        "name" : "id",
+        "titles" : "id",
+        "datatype" : "string"
+      }, {
+        "name" : "dataset",
+        "titles" : "dataset",
+        "datatype" : "string"
+      }, {
+        "name" : "modified",
+        "titles" : "modified",
+        "datatype" : "string"
+      }, {
+        "name" : "collection.1",
+        "titles" : "collection.1",
+        "datatype" : "string"
+      }, {
+        "name" : "sourceTaxonName",
+        "titles" : "plant",
+        "datatype" : "string"
+      }, {
+        "name" : "interactionTypeName",
+        "titles" : "type",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonFamilyName",
+        "titles" : "family",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonSubfamilyName",
+        "titles" : "subfamily",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonTribeName",
+        "titles" : "tribe",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonCommonName",
+        "titles" : "vernacularName",
+        "datatype" : "string"
+      }, {
+        "name" : "beeBibliographicCitation",
+        "titles" : "beeBibliographicCitation",
+        "datatype" : "string"
+      }, {
+        "name" : "targetTaxonName",
+        "titles" : "pollinator",
+        "datatype" : "string"
+      }, {
+        "name" : "percentual",
+        "titles" : "percentual",
+        "datatype" : "string"
+      }, {
+        "name" : "author",
+        "titles" : "author",
+        "datatype" : "string"
+      }, {
+        "name" : "municipality",
+        "titles" : "municipality",
+        "datatype" : "string"
+      }, {
+        "name" : "localityName",
+        "titles" : "state",
+        "datatype" : "string"
+      }, {
+        "name" : "region",
+        "titles" : "region",
+        "datatype" : "string"
+      }, {
+        "name" : "habitatName",
+        "titles" : "vegetalForm",
+        "datatype" : "string"
+      }, {
+        "name" : "referenceCitation",
+        "titles" : "reference",
+        "datatype" : "string"
+      }, {
+        "name" : "image.id",
+        "titles" : "image.id",
+        "datatype" : "string"
+      }, {
+        "name" : "image.original",
+        "titles" : "image.original",
+        "datatype" : "string"
+      }, {
+        "name" : "image.local",
+        "titles" : "image.local",
+        "datatype" : "string"
+      }, {
+        "name" : "image.resized",
+        "titles" : "image.resized",
+        "datatype" : "string"
+      }, {
+        "name" : "image.thumbnail",
+        "titles" : "image.thumbnail",
+        "datatype" : "string"
+      }, {
+        "name" : "image.credits",
+        "titles" : "image.credits",
+        "datatype" : "string"
+      } ]
+    }
+  } ]
+}
